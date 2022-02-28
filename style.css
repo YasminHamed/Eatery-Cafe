@@ -1,0 +1,130 @@
+body{
+    margin-right: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.background{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.last{
+    margin-top: 0px;
+}
+.icon{
+    position: absolute;
+    z-index: 2;
+    left: 70px;
+}
+.search{
+    position: relative;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.homee{
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.h11{
+    margin-left: 35px;
+}
+.call{
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.table1{
+    background-color: red;
+    border: 2px solid salmon;
+    border-radius: 5px;
+    width: 140px;
+    height: 37px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.restaurant{
+    color: white;
+    margin-top: 7%;
+    margin-left: 50px;
+    font-size: 150%;
+}
+.mission{
+    font-size: 400%;
+    margin-left: 50px;
+    color: white;
+    width: 1000px;
+}
+.sec2{
+    margin-top: 300px;
+}
+.sec3{
+    margin-top: 30px;
+}
+.chef{
+    text-align: center;
+    margin: 20px;
+}
+.sec4{
+    background-image: url(image/pngtree-food-food-snack-eating-goods-picture-image_925656.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    color: aliceblue;
+}
+.pp{
+    margin-top: 20px;
+    width: 75%;
+}
+.pp1{
+    margin-top: 20px;
+    width: 85%;
+}
+.pp11{
+    margin-top: -15px;
+}
+.pl{
+    font-size: 30px;
+}
+.cpy{
+    margin-top: 20px;
+}
+.img{
+    position: relative;
+    z-index: -1;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+.sectin{
+    z-index: 2;
+    margin-top: -250px;
+    margin-left: -40px;
+    color: rgb(0, 0, 0);
+}
+.day{
+    font-size: 25px;
+    margin-top: -80px;
+    margin-left: 20px;
+    z-index: 2;
+}
+.lastt{
+    margin-top: 100px;
+}
+.open{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.253);
+    padding-left: 20px;
+    width: 280px;
+    padding-bottom: 212px;
+}
+.pointer{
+    cursor: pointer;
+}

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>learn</title>
+    <link rel="stylesheet" href="wow.js/animate.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="Mdb/css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="Mdb/css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--barmenu-->
+    <div>
+        <div class="row">
+            <img class="logo" width="10%" src="image/Live_View_Page_-_515_eatery_Template_-_Google_Chrome_26_02_2022_23_03_47-removebg-preview.png" alt="">
+            <div class="row homee">
+                <a class="h11" href="index.html"><strong>Home</strong></a>
+                <a class="h11 smothScroll" href="#about"><strong>About</strong></a>
+                <a class="h11 smothScroll" href="#team"><strong>Chef</strong></a>
+                <a class="h11" href="#store"><strong>Menu</strong></a>
+            </div>
+            <a href="#" class="call"><strong>CALL NOW!  010 020 0340</strong></a>
+            <a href="#table" class="table1"><strong>Reserve a table</strong></a>
+        </div>
+        <img class="background" width="100%" src="image/pngtree-food-food-snack-eating-goods-picture-image_925656.jpg" alt="">
+        <div class="wow fadeInDown">
+            <p class="restaurant ">EATERY CAFE &  RESTAURANT</p>
+            <H1 class="mission">Our mission is to provide an unforgettable experience</H1>
+        </div>
+    </div>
+    <div  class="wow pulse" data-wow-iteration="infinite" data-wow-duration="1500ms">
+        <div id="about" class="container">
+            <div class="row sec2">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <p>READ OUR STORY</p>
+                    <h1><strong>We've been Making The Delicious Foods Since 1999</strong></h1>
+                    <p>Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada. Proin scelerisque risus et ipsum semper molestie sed in nisi. Ut rhoncus congue lectus, rhoncus venenatis leo malesuada id.</p>
+                    <p>Sed elementum vel felis sed scelerisque. In arcu diam, sollicitudin eu nibh ac, posuere tristique magna. You can use this template for your cafe or restaurant website. Please tell your friends about templatemo. Thank you.</p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <img width="100%" src="image/about-image.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wow slideInRight" data-wow-delay="1s">
+        <div id="team" class="sec3">
+            <h1 class="chef"><strong>Meet our chefs</strong></h1>
+            <p class="chef"><strong>THEY ARE NICE & FRIENDLY</strong></p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="WOW fadeInDown animated" data-wow-duration="2s" data-wow-delay="1s">
+                            <img width="100%" src="image/team-image1.jpg" alt="">
+                            <h2 class="chef">New Catherine</h2>
+                            <p class="chef">KITCHEN OFFICER</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <img width="100%" src="image/team-image2.jpg" alt="">
+                        <h2 class="chef">Lindsay Perlen</h2>
+                        <p class="chef">OWNER & MANAGER</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <img width="100%" src="image/team-image3.jpg" alt="">
+                        <h2 class="chef">Isabella Grace</h2>
+                        <p class="chef">PIZZA SPECIALIST</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" wow bounceInLeft" data-wow-offset="300">
+        <div class="sec4">
+            <h1 class="chef"><strong>Our Menus</strong></h1>
+        </div>
+    </div>
+    <!-- store -->
+    <section id="store" class="store py-5 last">
+        <div class="container">
+            <!-- search box -->
+            <div class=" wow bounceInLeft" data-wow-offset="300">        
+                <form>
+                    <div>
+                        <div>
+                        <span class="icon" id="search-icon"><i class="fas fa-search"></i></span>
+                        </div>
+                        <input class="search" type="text" placeholder='item....' id="search-item">
+                    </div>
+                </form>        
+            </div>
+            <!--end of filter buttons -->
+            <!-- store  items-->
+            <div class="row">
+                <!-- single item -->
+                <div class="wow animated fadeInRight col-10 col-sm-6 col-lg-4 mx-auto my-3  store-item sweets" data-wow-delay="1s"  data-item="sweets">
+                    <div class="card ">
+                        <div class="img-container">
+                        <img height="250px" src="image/016dc134925039.56060d2f32624.jpg" class="card-img-top store-img" alt="">
+                        <span onclick="buy()" class="pointer store-item-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        </div>
+                        <div class="card-body">
+                        <div class="card-text d-flex justify-content-between text-capitalize">
+                            <h5 id="store-item-name">shrimp </h5>
+                            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">50</strong></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="wow animated fadeInRight  col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-wow-delay="1s" data-item="cupcakes">
+                    <div class="card ">
+                        <div class="img-container">
+                        <img height="250px"  src="image/depositphotos_67657295-stock-photo-japanese-seafood-sushi-set.jpg" class="card-img-top store-img" alt="">
+                        <span onclick="buy()" class="pointer store-item-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        </div>
+                        <div class="card-body">
+                        <div class="card-text d-flex justify-content-between text-capitalize">
+                            <h5 id="store-item-name">sushi </h5>
+                            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">40</strong></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="wow animated fadeInRight col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-wow-delay="1s" data-item="cakes">
+                    <div class="card ">
+                        <div class="img-container">
+                        <img height="250px"  src="image/every-day-in-different.jpg" class="card-img-top store-img" alt="">
+                        <span onclick="buy()" class="pointer store-item-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        </div>
+                        <div class="card-body">
+                        <div class="card-text d-flex justify-content-between text-capitalize">
+                            <h5 id="store-item-name">burger</h5>
+                            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">35</strong></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="wow animated fadeInRight col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-wow-delay="1s" data-item="dougnuts">
+                    <div class="card ">
+                        <div class="img-container">
+                        <img height="250px"  src="image/hms-recipes-202.jpg" class="card-img-top store-img" alt="">
+                        <span onclick="buy()" class="pointer store-item-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        </div>
+                        <div class="card-body">
+                        <div class="card-text d-flex justify-content-between text-capitalize">
+                            <h5 id="store-item-name">soup </h5>
+                            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">30</strong></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="wow animated fadeInRight col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-wow-delay="1s" data-item="sweets">
+                    <div class="card ">
+                        <div class="img-container">
+                        <img height="250px"  src="image/images (1).jpeg" class="card-img-top store-img" alt="">
+                        <span onclick="buy()" class="pointer store-item-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        </div>
+                        <div class="card-body">
+                        <div class="card-text d-flex justify-content-between text-capitalize">
+                            <h5 id="store-item-name">origanic meat </h5>
+                            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">60</strong></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="wow animated fadeInRight col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-wow-delay="1s" data-item="cupcakes">
+                    <div class="card ">
+                        <div class="img-container">
+                        <img height="250px"  src="image/images.jpeg" class="card-img-top store-img" alt="">
+                        <span onclick="buy()" class="pointer store-item-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        </div>
+                        <div class="card-body">
+                        <div class="card-text d-flex justify-content-between text-capitalize">
+                            <h5 id="store-item-name">well done beaf  </h5>
+                            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">60</strong></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="wow animated fadeInRight col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-wow-delay="1s" data-item="cakes">
+                    <div class="card ">
+                        <div class="img-container">
+                        <img height="250px"  src="image/istockphoto-1165399909-612x612.jpg" class="card-img-top store-img" alt="">
+                        <span onclick="buy()" class="pointer store-item-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        </div>
+                        <div class="card-body">
+                        <div class="card-text d-flex justify-content-between text-capitalize">
+                            <h5 id="store-item-name">salmon </h5>
+                            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">40</strong></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="wow animated fadeInRight col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-wow-delay="1s" data-item="dougnuts">
+                    <div class="card ">
+                        <div class="img-container">
+                        <img height="250px"  src="image/istockphoto-174844905-170667a.jpg" class="card-img-top store-img" alt="">
+                        <span onclick="buy()" class="pointer store-item-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        </div>
+                        <div class="card-body">
+                        <div class="card-text d-flex justify-content-between text-capitalize">
+                            <h5 id="store-item-name">VIP </h5>
+                            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">75</strong></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="wow animated fadeInRight col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-wow-delay="1s" data-item="sweets">
+                    <div class="card ">
+                        <div class="img-container">
+                        <img height="250px"  src="image/istockphoto-636514364-170667a.jpg" class="card-img-top store-img" alt="">
+                        <span onclick="buy()" class="pointer store-item-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        </div>
+                        <div class="card-body">
+                        <div class="card-text d-flex justify-content-between text-capitalize">
+                            <h5 id="store-item-name">VIP</h5>
+                            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">70</strong></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="wow animated fadeInRight col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-wow-delay="1s" data-item="cupcakes">
+                    <div class="card ">
+                        <div class="img-container">
+                        <img height="250px"  src="image/istockphoto-902938334-612x612.jpg" class="card-img-top store-img" alt="">
+                        <span onclick="buy()" class="pointer store-item-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        </div>
+                        <div class="card-body">
+                        <div class="card-text d-flex justify-content-between text-capitalize">
+                            <h5 id="store-item-name">well done meat </h5>
+                            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">55</strong></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="wow animated fadeInRight col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-wow-delay="1s" data-item="cakes">
+                    <div class="card ">
+                        <div class="img-container">
+                        <img height="250px"  src="image/istockphoto-913058752-170667a.jpg" class="card-img-top store-img" alt="">
+                        <span onclick="buy()" class="pointer store-item-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        </div>
+                        <div class="card-body">
+                        <div class="card-text d-flex justify-content-between text-capitalize">
+                            <h5 id="store-item-name">chicken Grill </h5>
+                            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">40</strong></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="wow animated fadeInRight col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-wow-delay="1s" data-item="dougnuts">
+                    <div class="card ">
+                        <div class="img-container">
+                        <img height="250px"  src="image/UPP-photography-product-kebab-1240x700.jpg" class="card-img-top store-img" alt="">
+                        <span onclick="buy()" class="pointer store-item-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        </div>
+                        <div class="card-body">
+                        <div class="card-text d-flex justify-content-between text-capitalize">
+                            <h5 id="store-item-name">kebab </h5>
+                            <h5 class="store-item-value">$ <strong id="store-item-price" class="font-weight-bold">30</strong></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+            </div>
+        </div>
+    </section>
+    <hr>
+    <div id="table" class="container">
+        <div class="row lastt">
+            <div  class="WOW animated jackInTheBox col-xl-3 col-lg-3 col-md-6 col-sm-12" >
+                <h3 class="pl"><strong>Find us</strong></h3>
+                <p class="pp">123 nulla a cursus rhoncus ,augue sem viverra 10870 id ultricies sapien</p>
+            </div>
+            <div class="WOW animated jackInTheBox col-xl-3 col-lg-3 col-md-6 col-sm-12" >
+                <h1 class="pl"><strong>Reservation</strong></h1>
+                <p class="pp1">090-080-0650 | 090-070-0430 info@company.com</p>
+                <p class="pp11">LINE: eatery247s</p>
+            </div>
+            <div class="WOW animated jackInTheBox col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <img class="img" width="110%" height="250px" src="image/istockphoto-1307190527-170667a.jpg" alt="">
+                <div class="sectin">
+                    <h2 class="open"><strong>Open</strong></h2>
+                    <br>
+                    <h5 class="day"><strong>Monday: Closed</strong></h5>
+                    <h5 class="day"><strong>Tuesday to Friday</strong></h5>
+                    <p class="day">7:00 AM - 9:00 PM</p>
+                    <h5 class="day"><strong>Saturday - Sunday</strong></h5>
+                    <p class="day">11:00 AM - 10:00 PM</p>
+                </div>
+            </div>
+            <div class="WOW animated jackInTheBox cpy col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <p>Copyright © 2018 Your Company Name</p>
+                <br>
+                <p>Design: TemplateMo</p>
+            </div>
+        </div>
+    </div>
+    <!--end of store items -->
+    <div>
+        <!--wow.js-->
+        <script src="wow.js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <!-- jquery -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- jQuery -->
+        <script type="text/javascript" src="Mdb/js/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="Mdb/js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="Mdb/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="Mdb/js/mdb.min.js"></script>
+        <!-- Your custom scripts (optional) -->
+        <script src="main.js"></script>
+    </div>
+</body>
+</html>
